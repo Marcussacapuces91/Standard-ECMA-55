@@ -5,3 +5,5 @@ EUROPEAN COMPUTER MANUFACTURERS ASSOCIATION
 ## Minimal BASIC
 
 January 1978
+
+[Brief History](brief_history.md)
