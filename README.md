@@ -10,4 +10,6 @@ January 1978
 
 [Table of Contents](table_of_contents.md)
 
-  [1. Scope](chapter_1.md)
+  1.  [Scope](1_scope.md)
+  2.  [References](2_references.md)
+  3.  [Definitions](3_definitions.md)
