@@ -1,6 +1,5 @@
-# SCOPE
-This Standard ECMA-55 is designed to promote the interchangeability of BASIC programs among a variety of automatic data processing systems. Subsequent Standards for the same purpose will describe extensions and enhancements to this Standard. Programs 
-conforming to this Standard, as opposed to extensions or enhancements of this Standard, will be said to be written in "Minimal BASIC".
+# Scope
+This Standard ECMA-55 is designed to promote the interchangeability of BASIC programs among a variety of automatic data processing systems. Subsequent Standards for the same purpose will describe extensions and enhancements to this Standard. Programs conforming to this Standard, as opposed to extensions or enhancements of this Standard, will be said to be written in "Minimal BASIC".
 
 This Standard establishes:
 
