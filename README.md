@@ -13,3 +13,4 @@ January 1978
   1.  [Scope](1_scope.md)
   2.  [References](2_references.md)
   3.  [Definitions](3_definitions.md)
+  4.  [Characters and strings](4_characters_and_strings.md)
