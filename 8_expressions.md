@@ -3,7 +3,7 @@
 
 Expressions shall be either numeric-expressions or string- expressions.
 
-Numeric-expressions may be constructed from variables, constants, and function references using the operations of addition, sub¬ traction, multiplication, division and involution.
+Numeric-expressions may be constructed from variables, constants, and function references using the operations of addition, subtraction, multiplication, division and involution.
 
 String-expressions are composed of either a string-variable or a string-constant.
 
@@ -37,23 +37,23 @@ If an underflow occurs in the evaluation of a numeric expression then the value 
 
 `0^0` is defined to be `1`, as in ordinary mathematical usage.
 
-When the order of evaluation of an expression is not constrained by the use of parentheses, and if the mathematical use of opera¬ tors is associative, commutative, or both, then full use of thes< properties may be made in order to revise the order of evalua¬ tion of the expression.
+When the order of evaluation of an expression is not constrained by the use of parentheses, and if the mathematical use of operators is associative, commutative, or both, then full use of thes< properties may be made in order to revise the order of evaluation of the expression.
 
 In a function reference, the number of arguments supplied shall be equal to the number of parameters required by the definition of the function.
 
-A function reference is a notation for the invocation of a pre¬ defined algorithm, into which the argument value, if any, is substituted for the parameter (see 9 and 10) which is used in the function definition. All functions referenced in an express¬ ion shall either be implementation-supplied or be defined in a def-statement. The result of the evaluation of the function, achieved by the execution of the defining algorithm, is a scalar numeric value which replaces the function reference in the ex¬ pression.
+A function reference is a notation for the invocation of a predefined algorithm, into which the argument value, if any, is substituted for the parameter (see 9 and 10) which is used in the function definition. All functions referenced in an expression shall either be implementation-supplied or be defined in a def-statement. The result of the evaluation of the function, achieved by the execution of the defining algorithm, is a scalar numeric value which replaces the function reference in the expression.
 
 ## Exceptions
 
   - Evaluation of an expression results in division by zero (nonfatal, the recommended recovery procedure is to supply machine infinity with the sign of the numerator and continue).
-  - Evaluation of an expression results in an overflow (nonfatal, the recommended recovery procedure is to supply machine in¬ finity with the algebraically correct sign and continue).
-  - Evaluation of the operation of involution results in a nega¬ tive number being raised to a non-integral power (fatal).
-  - Evaluation of the operation of involution results in zero be¬ ing raised to a negative value (nonfatal, the recommended re¬ covery procedure is to supply positive machine infinity and continue).
+  - Evaluation of an expression results in an overflow (nonfatal, the recommended recovery procedure is to supply machine infinity with the algebraically correct sign and continue).
+  - Evaluation of the operation of involution results in a negative number being raised to a non-integral power (fatal).
+  - Evaluation of the operation of involution results in zero being raised to a negative value (nonfatal, the recommended recovery procedure is to supply positive machine infinity and continue).
   
 ## Remarks
 
 The accuracy with which the evaluation of an expression takes place will vary from implementation to implementation. While no minimum accuracy is specified for the evaluation of numeric- expressions, it is recommended that implementations maintain at least six significant decimal digits of precision.
 
-The method of evaluation of the operation of involution may depend upon whether or not the exponent is an integer. If it is, then the indicated number of multiplications may be per¬ formed; if it is not, then the expression may be evaluated using the LOG and EXP functions (see 9).
+The method of evaluation of the operation of involution may depend upon whether or not the exponent is an integer. If it is, then the indicated number of multiplications may be performed; if it is not, then the expression may be evaluated using the LOG and EXP functions (see 9).
 
 It is recommended that implementations report underflow as an exception and continue.
