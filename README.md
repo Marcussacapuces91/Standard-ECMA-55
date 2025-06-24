@@ -10,7 +10,11 @@ January 1978
 
 [Table of Contents](table_of_contents.md)
 
-  1.  [Scope](1_scope.md)
-  2.  [References](2_references.md)
-  3.  [Definitions](3_definitions.md)
-  4.  [Characters and strings](4_chracters_and_strings.md)
+  1. [Scope](1_scope.md)
+  2. [References](2_references.md)
+  3. [Definitions](3_definitions.md)
+  4. [Characters and strings](4_chracters_and_strings.md)
+  5. [Program](5_program.md)
+  6. [Constants](6_constants.md)
+  7. [Variables](7_variables.md)
+  8. 
