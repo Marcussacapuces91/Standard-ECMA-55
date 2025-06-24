@@ -8,7 +8,7 @@ BASIC is a line-oriented language. A BASIC program is a sequence of lines, the l
   1. program = block* end-line 
   2. block = (line/for-block)* 
   3. line = line-number statement end-of-line 
-  4. 1ine-number = digit digit? digit? digit? 
+  4. line-number = digit digit? digit? digit? 
   5. end-of-line = [implementation-defined]
   6. end-line = line-number end-statement end-of-line 
   7. end-statement = END 
