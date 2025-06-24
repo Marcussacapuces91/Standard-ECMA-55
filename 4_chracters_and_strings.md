@@ -1,4 +1,4 @@
-# CHARACTERS AND STRINGS 
+# Characters and strings
 ## General Description 
 
 The character set for BASIC is contained in the ECMA 7-bit coded character set. Strings are sequences of characters and are used in BASIC programs as comments (see 19), as string constants (see 6), or as data (see 15). 
