@@ -12,4 +12,6 @@
 
 [ECMA Text Copyright policy](https://ecma-international.org/policies/by-ipr/ecma-text-copyright-policy/)
 
+Original file available at: [https://ecma-international.org/publications-and-standards/standards/ecma-55/](https://ecma-international.org/publications-and-standards/standards/ecma-55/)
+
 Due to copyright, I do not add any licence on this work.
