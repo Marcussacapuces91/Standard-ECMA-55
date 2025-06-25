@@ -6,7 +6,7 @@
 
 # Web site
 
-[https://marcussacapuces91.github.io/Standard-ECMA-55](https://marcussacapuces91.github.io/Standard-ECMA-55/)
+[https://marcussacapuces91.github.io/Standard-ECMA-55-Minimal-BASIC/](https://marcussacapuces91.github.io/Standard-ECMA-55-Minimal-BASIC/)
 
 # Copyright
 
