@@ -1,14 +1,13 @@
 <h1>ECMA</h1>
 <h1>EUROPEAN COMPUTER MANUFACTURERS ASSOCIATION</h1>
 
-# Standard-ECMA-55
-## Minimal BASIC
+# Standard ECMA-55<br>Minimal BASIC
 
 January 1978
 
 [Brief History](brief_history.md)
 
-[Table of Contents](table_of_contents.md)
+[Table of Contents](index.md)
 
   1. [Scope](1_scope.md)
   2. [References](2_references.md)
@@ -31,14 +30,10 @@ January 1978
   19. [REMARK statement](19_remark_statement.md)
   20. [RANDOMIZE statement](20_randomize_statement.md)
 
-[TABLE 1 - BASIC Character Set](basic_character_set.md)
-
+[TABLE 1 - BASIC Character Set](basic_character_set.md)<br>
 [TABLE 2 - BASIC Code](basic_code.md)
 
-[APPENDIX 1 - Organisation of the Standard](organisation_of_the_standard.md)
-
-[APPENDIX 2 - Method of Syntax Specification](method_of_syntax_specification.md)
-
-[APPENDIX 3 - Conformance](conformance.md)
-
+[APPENDIX 1 - Organisation of the Standard](organisation_of_the_standard.md)<br>
+[APPENDIX 2 - Method of Syntax Specification](method_of_syntax_specification.md)<br>
+[APPENDIX 3 - Conformance](conformance.md)<br>
 [APPENDIX 4 - Implementation-defined Features](implementation_defined_features.md)
