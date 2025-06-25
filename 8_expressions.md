@@ -9,17 +9,17 @@ String-expressions are composed of either a string-variable or a string-constant
 
 ## Syntax
 
-  1. expression = numeric-expression / string-expression
-  2. numeric-expression = sign? term (sign term)*
-  3. term = factor (multiplier factor)*
-  4. factor = primary (circumflex-accent primary)*
-  5. multiplier = asterisk / solidus
-  6. primary = numeric-variable / numeric-rep / numeric-function-ref / left-parenthesis numeric-expression
-  7. numeric-function-ref = numeric-function-name argument-list?
-  8. numeric-function-name = numeric-defined-function / numeric-supplied-function
-  9. argument-list = left-parenthesis argument right-parenthesis
-  10. argument = numeric-expression
-  11. string-expression = string-variable / string-constant
+1. expression = numeric-expression / string-expression
+2. numeric-expression = sign? term (sign term)*
+3. term = factor (multiplier factor)*
+4. factor = primary (circumflex-accent primary)*
+5. multiplier = asterisk / solidus
+6. primary = numeric-variable / numeric-rep / numeric-function-ref / left-parenthesis numeric-expression
+7. numeric-function-ref = numeric-function-name argument-list?
+8. numeric-function-name = numeric-defined-function / numeric-supplied-function
+9. argument-list = left-parenthesis argument right-parenthesis
+10. argument = numeric-expression
+11. string-expression = string-variable / string-constant
 
 ## Examples
 
@@ -45,10 +45,10 @@ A function reference is a notation for the invocation of a predefined algorithm,
 
 ## Exceptions
 
-  - Evaluation of an expression results in division by zero (nonfatal, the recommended recovery procedure is to supply machine infinity with the sign of the numerator and continue).
-  - Evaluation of an expression results in an overflow (nonfatal, the recommended recovery procedure is to supply machine infinity with the algebraically correct sign and continue).
-  - Evaluation of the operation of involution results in a negative number being raised to a non-integral power (fatal).
-  - Evaluation of the operation of involution results in zero being raised to a negative value (nonfatal, the recommended recovery procedure is to supply positive machine infinity and continue).
+- Evaluation of an expression results in division by zero (nonfatal, the recommended recovery procedure is to supply machine infinity with the sign of the numerator and continue).
+- Evaluation of an expression results in an overflow (nonfatal, the recommended recovery procedure is to supply machine infinity with the algebraically correct sign and continue).
+- Evaluation of the operation of involution results in a negative number being raised to a non-integral power (fatal).
+- Evaluation of the operation of involution results in zero being raised to a negative value (nonfatal, the recommended recovery procedure is to supply positive machine infinity and continue).
   
 ## Remarks
 

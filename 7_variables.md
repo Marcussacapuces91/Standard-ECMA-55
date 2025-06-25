@@ -13,13 +13,13 @@ Explicit declarations of variable types are not required; a dollar-sign serves t
 
 ## Syntax 
 
-  1. variable = numeric-variable / string-variable 
-  2 . numeric-variable = simple-numeric-variable / numeric-array-element 
-  3. simple-numeric-variable = letter digit? 
-  4. numeric-array-element = numeric-array-name subscript
-  5. numeric-array-name = letter
-  6. subscript = left-parenthesis numeric-expression (comma numeric-expression)? right-parenthesis 
-  7. string-variable = letter dollar-sign 
+1. variable = numeric-variable / string-variable 
+2. numeric-variable = simple-numeric-variable / numeric-array-element 
+3. simple-numeric-variable = letter digit? 
+4. numeric-array-element = numeric-array-name subscript
+5. numeric-array-name = letter
+6. subscript = left-parenthesis numeric-expression (comma numeric-expression)? right-parenthesis 
+7. string-variable = letter dollar-sign 
 
 ## Examples
 

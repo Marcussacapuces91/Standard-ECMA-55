@@ -5,7 +5,7 @@ Predefined algorithms are supplied by the implementation for the evaluation of c
 
 ## Syntax
 
-  1. numeric-supplied-function = ABS / ATN / COS / EXP / INT / LOG / RND / SGN / SIN / SQR / TAN 
+1. numeric-supplied-function = ABS / ATN / COS / EXP / INT / LOG / RND / SGN / SIN / SQR / TAN 
 
 ## Examples 
 

@@ -5,33 +5,29 @@ Constants can denote both scalar numeric values and string values.
 
 A numeric-constant is a decimal representation in positional notation of a number. There are four general syntactic forms of (optionally signed) numeric constants:
 
-  - implicit point representation                `sd...d`
-  - explicit point unscaled representation       `sd..drd..d`
-  - explicit point scaled representation         `sd..drd..dEsd..d`
-  - implicit point scaled representation         `sd..dEsd..d`
+- implicit point representation                `sd...d`
+- explicit point unscaled representation       `sd..drd..d`
+- explicit point scaled representation         `sd..drd..dEsd..d`
+- implicit point scaled representation         `sd..dEsd..d`
     
 where: 
 
-d is a decimal digit,
-
-r is a full-stop
-
-s is an optional sign, and 
-
-E is the explicit character E.
-
+d is a decimal digit,<br>
+r is a full-stop<br>
+s is an optional sign, and<br> 
+E is the explicit character E.<br>
 A string-constant is a character string enclosed in quotation marks (see 4).
 
 ## Syntax 
 
-  1. numeric-constant = sign? numeric-rep
-  2. sign = plus-sign / minus-sign
-  3. numeric-rep = significand exrad?
-  4. significand = integer full-stop? / integer? fraction 
-  5. integer = digit digit* 
-  6. fraction = full-stop digit digit* 
-  7. exrad = E sign? integer 
-  8. string-constant = quoted-string 
+1. numeric-constant = sign? numeric-rep
+2. sign = plus-sign / minus-sign
+3. numeric-rep = significand exrad?
+4. significand = integer full-stop? / integer? fraction 
+5. integer = digit digit* 
+6. fraction = full-stop digit digit* 
+7. exrad = E sign? integer 
+8. string-constant = quoted-string 
 
 ## Examples 
 

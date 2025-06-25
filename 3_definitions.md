@@ -44,8 +44,8 @@ A single transmission of characters which terminates with an end-of-line.
 
 A set of statements is nested within another set of statements when:
 
-  - the nested set is physically contiguous, and
-  - the nesting set (divided by the nested set) is non-null.
+- the nested set is physically contiguous, and
+- the nesting set (divided by the nested set) is non-null.
 
 ## Print zone 
 

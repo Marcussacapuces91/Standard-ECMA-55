@@ -5,15 +5,15 @@ The character set for BASIC is contained in the ECMA 7-bit coded character set. 
 
 ## Syntax
 
-  1. letter = A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S/T/U/V/W/X/Y/Z 
-  2. digit = 0/1/2/3/4/5/6/7/8/9 
-  3. string-character = quotation-mark / quoted-string-character
-  4. quoted-string-character = exclamation-mark / number-sign / dollar-sign / percent-sign / ampersand / apostrophe / left-parenthesis / right-parenthesis / asterisk / comma / solidus / colon / semi-colon / less-than-sign / equals-sign / greater-than-sign / question-mark / circumflex-accent / underline / unquoted-string-character 
-  5. unquoted-string-character = space / plain-string-character 
-  6. plain-string-character = plus-sign / minus-sign / full-stop / digit / letter 
-  7. remark-string = string-character*
-  8. quoted-string = quotation-mark quoted-string-character* quotation-mark 
-  9. unquoted-string = plain-string-character / plain-st ring-character unquoted-string-characte r* plain-st ring-character
+1. letter = A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S/T/U/V/W/X/Y/Z 
+2. digit = 0/1/2/3/4/5/6/7/8/9 
+3. string-character = quotation-mark / quoted-string-character
+4. quoted-string-character = exclamation-mark / number-sign / dollar-sign / percent-sign / ampersand / apostrophe / left-parenthesis / right-parenthesis / asterisk / comma / solidus / colon / semi-colon / less-than-sign / equals-sign / greater-than-sign / question-mark / circumflex-accent / underline / unquoted-string-character 
+5. unquoted-string-character = space / plain-string-character 
+6. plain-string-character = plus-sign / minus-sign / full-stop / digit / letter 
+7. remark-string = string-character*
+8. quoted-string = quotation-mark quoted-string-character* quotation-mark 
+9. unquoted-string = plain-string-character / plain-st ring-character unquoted-string-characte r* plain-st ring-character
 
 ## Examples
 

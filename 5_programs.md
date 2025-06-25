@@ -5,14 +5,14 @@ BASIC is a line-oriented language. A BASIC program is a sequence of lines, the l
 
 ## Syntax 
 
-  1. program = block* end-line 
-  2. block = (line/for-block)* 
-  3. line = line-number statement end-of-line 
-  4. line-number = digit digit? digit? digit? 
-  5. end-of-line = [implementation-defined]
-  6. end-line = line-number end-statement end-of-line 
-  7. end-statement = END 
-  8. statement = data-statement / def-statement / dimension -statement / gosub-statement / goto-statement / if-then-statement / input-statement / let-statement / on-goto-statement / option-statement / print-statement / randomize-statement / read-statement / remark-statement / restore-statement / return-statement / stop-statement
+1. program = block* end-line 
+2. block = (line/for-block)* 
+3. line = line-number statement end-of-line 
+4. line-number = digit digit? digit? digit? 
+5. end-of-line = [implementation-defined]
+6. end-line = line-number end-statement end-of-line 
+7. end-statement = END 
+8. statement = data-statement / def-statement / dimension -statement / gosub-statement / goto-statement / if-then-statement / input-statement / let-statement / on-goto-statement / option-statement / print-statement / randomize-statement / read-statement / remark-statement / restore-statement / return-statement / stop-statement
 
 ## Examples 
 
@@ -22,20 +22,20 @@ BASIC is a line-oriented language. A BASIC program is a sequence of lines, the l
 
 A BASIC program shall be composed of a sequence of lines ordered by line-numbers, the last of which contains an end-statement. Program lines shall be executed in sequential order, starting with the first line, until 
 
-  - some other action is dictated by a control statement, or
-  - an exception condition occurs, which results in a termination of the program, or
-  - a stop-statement or end-statement is executed.
+- some other action is dictated by a control statement, or
+- an exception condition occurs, which results in a termination of the program, or
+- a stop-statement or end-statement is executed.
     
 Special conventions shall be observed regarding spaces. With the following exceptions, spaces may occur anywhere in a BASIC program without affecting the execution of that program and may be used to improve the appearance and readability of the program. 
 
 Spaces shall not appear:
 
-  - at the beginning of a line
-  - within keywords
-  - within numeric constants
-  - within line numbers
-  - within function or variable names
-  - within two-character relation symbols 
+- at the beginning of a line
+- within keywords
+- within numeric constants
+- within line numbers
+- within function or variable names
+- within two-character relation symbols 
 
 All keywords in a program shall be preceded by at least one space and, if not at the end of a line, shall be followed by at least one space. 
 
