@@ -1,3 +1,5 @@
+[![Deploy GitHub Pages](https://github.com/Marcussacapuces91/Standard-ECMA-55/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/Marcussacapuces91/Standard-ECMA-55/actions/workflows/jekyll-gh-pages.yml)
+
 ECMA
 EUROPEAN COMPUTER MANUFACTURERS ASSOCIATION
 
