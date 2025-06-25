@@ -2,6 +2,8 @@
 name: Standard ECMA-55 - Minimal BASIC
 timezone: Europa/Paris
 
+theme: jekyll-theme-hacker
+
 plugins:
 - jekyll-avatar
 - jekyll-feed
