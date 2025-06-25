@@ -1,0 +1,13 @@
+---
+name: Standard ECMA-55 - Minimal BASIC
+timezone: Europa/Paris
+
+plugins:
+- jekyll-avatar
+- jekyll-feed
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-seo-tag
+- jekyll-sitemap
+- jemoji
+
