@@ -32,7 +32,7 @@ January 1978
 [TABLE 1 - BASIC Character Set](basic_character_set.md)<br>
 [TABLE 2 - BASIC Code](basic_code.md)
 
-[APPENDIX 1 - Organisation of the Standard](organisation_of_the_standard.md)<br>
+[APPENDIX 1 - Organisation of the Standard](A1_organisation_of_the_standard.md)<br>
 [APPENDIX 2 - Method of Syntax Specification](A2_method_of_syntax_specification.md)<br>
 [APPENDIX 3 - Conformance](A3_conformance.md)<br>
 [APPENDIX 4 - Implementation-defined Features](A4_implementation_defined_features.md)
