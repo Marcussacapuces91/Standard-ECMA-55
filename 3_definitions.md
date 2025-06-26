@@ -1,10 +1,11 @@
 # Definitions
 
-
 <dl>
 
 <dt>BASIC</dt>
-<dd>A term applied as a name to members of a special class of languages which possess similar syntaxes and semantic meanings; acronym for Beginner's All-purpose Symbolic Instruction Code.</dd>
+<dd>
+A term applied as a name to members of a special class of languages which possess similar syntaxes and semantic meanings; acronym for Beginner's All-purpose Symbolic Instruction Code.
+</dd>
 <dt>Batch-mode</dt>
 <dd>The processing of programs in an environment where no provision is made for user interaction.</dd>
 <dt>End-of-line</dt>
