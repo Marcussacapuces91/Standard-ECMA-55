@@ -11,4 +11,6 @@ This Standard establishes:
 
 Although the BASIC language was originally designed primarily for interactive use, this Standard describes a language that is not so restricted.
 
-The organization of the Standard is outlined in Appendix 1. The method of syntax specification used is explained in Appendix 2.
+The organization of the Standard is outlined in [Appendix 1](A1_organisation_of_the_standard.md). The method of syntax specification used is explained in [Appendix 2](A2_method_of_syntax_specification.md).
+
+[back](./)
