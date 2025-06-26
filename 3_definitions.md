@@ -48,6 +48,7 @@ A set of statements is nested within another set of statements when:
 
 - the nested set is physically contiguous, and
 - the nesting set (divided by the nested set) is non-null.
+
 </dd>
 <dt>Print zone</dt>
 <dd markdown="1">
