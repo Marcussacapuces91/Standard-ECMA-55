@@ -11,7 +11,7 @@ January 1978
   1. [Scope](1_scope.md)
   2. [References](2_references.md)
   3. [Definitions](3_definitions.md)
-  4. [Characters and strings](4_chracters_and_strings.md)
+  4. [Characters and strings](4_characters_and_strings.md)
   5. [Programs](5_programs.md)
   6. [Constants](6_constants.md)
   7. [Variables](7_variables.md)
@@ -29,8 +29,8 @@ January 1978
   19. [REMARK statement](19_remark_statement.md)
   20. [RANDOMIZE statement](20_randomize_statement.md)
 
-[TABLE 1 - BASIC Character Set](basic_character_set.md)<br>
-[TABLE 2 - BASIC Code](basic_code.md)
+[TABLE 1 - BASIC Character Set](T2_basic_character_set.md)<br>
+[TABLE 2 - BASIC Code](T1_basic_code.md)
 
 [APPENDIX 1 - Organisation of the Standard](A1_organisation_of_the_standard.md)<br>
 [APPENDIX 2 - Method of Syntax Specification](A2_method_of_syntax_specification.md)<br>
