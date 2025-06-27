@@ -31,9 +31,11 @@ A string-constant is a character string enclosed in quotation marks (see 4).
 
 ## Examples 
 
-    1     500    -21.    .255    1E10
-    5E-1  .4E+1 
-    "XYZ"       "X - 3B2"    "1E10"
+```BASIC
+    1         500          -21.        .255        1E10
+    5E-1      .4E+1 
+    "XYZ"     "X - 3B2"    "1E10"
+```
 
 ## Semantics
 
@@ -49,6 +51,6 @@ The evaluation of a numeric constant causes an overflow (non-fatal, the recommen
 
 ## Remarks 
 
-Since this Standard does not require that strings with more than 18 characters be assignable to string variables (see 7), conforming programs can use string constants with more than 18 characters only as elements in a print-list. 
+Since this Standard does not require that strings with more than 18 characters be assignable to string variables (see [7](7_variables.md)), conforming programs can use string constants with more than 18 characters only as elements in a print-list.
 
 It is recommended that implementations report constants whose magnitudes are less than machine infinitesimal as underflows and continue.
