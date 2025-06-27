@@ -23,13 +23,14 @@ String-expressions are composed of either a string-variable or a string-constant
 
 ## Examples
 
+```BASIC
     3*X - Y^2      A(1)+A(2)+A(3)    2^(-X)
     -X/Y           SQR(X~2+Y^2)
+```
     
 ## Semantics
 
-The formation and evaluation of numeric-expressions follows the normal algebraic rules. The symbols circumflex-accent, asteris , solidus, plus-sign and minus-sign represent the operations of involution, multiplication, division, addition and subtraction, respectively. Unless parentheses dictate otherwise, involutions are performed first, then multiplications and divisions, and finally additions and subtractions. In the absence of parenthe¬ ses, operations of the same precedence are associated to the
-left.
+The formation and evaluation of numeric-expressions follows the normal algebraic rules. The symbols circumflex-accent, asteris , solidus, plus-sign and minus-sign represent the operations of involution, multiplication, division, addition and subtraction, respectively. Unless parentheses dictate otherwise, involutions are performed first, then multiplications and divisions, and finally additions and subtractions. In the absence of parenthe¬ ses, operations of the same precedence are associated to the left.
 
 `A-B-C` is interpreted as `(A-B)-C`, `A^B^C` as `(A^B)^C`, `A/B/C` as `(A/B)/C` and `-A^B` as `-(A^B)`.
 
@@ -41,7 +42,7 @@ When the order of evaluation of an expression is not constrained by the use of p
 
 In a function reference, the number of arguments supplied shall be equal to the number of parameters required by the definition of the function.
 
-A function reference is a notation for the invocation of a predefined algorithm, into which the argument value, if any, is substituted for the parameter (see 9 and 10) which is used in the function definition. All functions referenced in an expression shall either be implementation-supplied or be defined in a def-statement. The result of the evaluation of the function, achieved by the execution of the defining algorithm, is a scalar numeric value which replaces the function reference in the expression.
+A function reference is a notation for the invocation of a predefined algorithm, into which the argument value, if any, is substituted for the parameter (see [9](9_implementation_supplied_functions.md) and [10](10_user_defined_functions.md)) which is used in the function definition. All functions referenced in an expression shall either be implementation-supplied or be defined in a def-statement. The result of the evaluation of the function, achieved by the execution of the defining algorithm, is a scalar numeric value which replaces the function reference in the expression.
 
 ## Exceptions
 
@@ -54,6 +55,6 @@ A function reference is a notation for the invocation of a predefined algorithm,
 
 The accuracy with which the evaluation of an expression takes place will vary from implementation to implementation. While no minimum accuracy is specified for the evaluation of numeric- expressions, it is recommended that implementations maintain at least six significant decimal digits of precision.
 
-The method of evaluation of the operation of involution may depend upon whether or not the exponent is an integer. If it is, then the indicated number of multiplications may be performed; if it is not, then the expression may be evaluated using the LOG and EXP functions (see 9).
+The method of evaluation of the operation of involution may depend upon whether or not the exponent is an integer. If it is, then the indicated number of multiplications may be performed; if it is not, then the expression may be evaluated using the LOG and EXP functions (see [9](9_implementation_supplied_functions.md).
 
 It is recommended that implementations report underflow as an exception and continue.
