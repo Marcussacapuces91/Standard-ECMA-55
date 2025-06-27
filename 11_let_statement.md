@@ -28,3 +28,5 @@ The expression is evaluated (see 8) and its value is assigned to the variable to
 ## Exceptions
 
 A string datum contains too many characters (fatal).
+
+[Back](./)
