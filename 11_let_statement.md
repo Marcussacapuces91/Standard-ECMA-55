@@ -13,10 +13,12 @@ A let-statement provides for the assignment of the value of an expression to a v
 
 ## Examples
 
+```BASIC
     LET P = 3.14159 
     LET A(X,3) = SIN(X)*Y + 1 
     LET A$ = "ABC" 
     LET A$ = B$ 
+```
  
 ## Semantics
 
@@ -25,4 +27,3 @@ The expression is evaluated (see 8) and its value is assigned to the variable to
 ## Exceptions
 
 A string datum contains too many characters (fatal).
-
