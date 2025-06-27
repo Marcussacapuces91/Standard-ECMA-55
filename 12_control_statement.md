@@ -1,4 +1,5 @@
 # Control Statement
+
 ## General Description
 
 Control statements allow for the interruption of the normal sequence of execution of statements by causing execution to continue at a specified line, rather than at the one with the next higher line number.
@@ -51,8 +52,10 @@ allows for program termination.
 
 ## Examples
 
+```BASIC
     GO TO 999                   IF X > Y+83 then 200 
     IF A$ <> B$ THEN 550        ON L+1 GO TO 300,400,500
+```
 
 ## Semantics 
  
@@ -78,3 +81,5 @@ The stop-statement causes termination of the program.
 
 - An attempt is made to execute a return-statement without having executed a corresponding gosub-statement (fatal).
 - The integer obtained as the value of an expression in an on-goto-statement is less than one or greater than the number of line-numbers in the list (fatal).
+
+[Back](./)
