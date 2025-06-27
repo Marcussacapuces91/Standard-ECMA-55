@@ -58,3 +58,5 @@ The accuracy with which the evaluation of an expression takes place will vary fr
 The method of evaluation of the operation of involution may depend upon whether or not the exponent is an integer. If it is, then the indicated number of multiplications may be performed; if it is not, then the expression may be evaluated using the LOG and EXP functions (see [9](9_implementation_supplied_functions.md).
 
 It is recommended that implementations report underflow as an exception and continue.
+
+[Back](./)
