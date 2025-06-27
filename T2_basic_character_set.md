@@ -24,9 +24,13 @@
 </table>
 
 <div class="note info">
-<h5>Note:</h5>
-<p>In the 7-bit and in the 8-bit code tables two characters are allocated to pos. 2/4, namely $ and h. In any version of the codes a single character is to be allocated to this position. The character of the 7-bit or of the 8-bit coded character set, which corresponds to the character $ of the Minimal BASIC character set is either $ or ¤ (¤ in the International Reference Version).</p>
-<p>The same applies to pos. 2/3 for the characters £ and #, the latter being the character of the International Reference Version.</p>
+<h3>Note:</h3>
+<p>In the 7-bit and in the 8-bit code tables two characters are allocated to pos. 2/4, namely $ and h. In any version of
+the codes a single character is to be allocated to this position. The character of the 7-bit or of the 8-bit coded
+character set, which corresponds to the character $ of the Minimal BASIC character set is either $ or ¤ (¤ in the
+International Reference Version).</p>
+<p>The same applies to pos. 2/3 for the characters £ and #, the latter being the character of the International
+Reference Version.</p>
 </div>
 
 [Back](./)
