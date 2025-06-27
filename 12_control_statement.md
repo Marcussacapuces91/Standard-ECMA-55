@@ -4,32 +4,32 @@
 
 Control statements allow for the interruption of the normal sequence of execution of statements by causing execution to continue at a specified line, rather than at the one with the next higher line number.
 
-The goto-statement
+### The goto-statement
 
     GO TO line-number 
 
 allows for an unconditional transfer.
 
-The if-then-statement
+### The if-then-statement
 
     IF expl rel exp2 THEN line-number
 
 where "expl" and'texp2" are expressions and "rel" is a relational operator, allows for a conditional transfer.
 
-The gosub and return statements
+### The gosub and return statements
 
     GO SUB line-number 
     RETURN
 
 allow for subroutine calls.
 
-The on-goto-statement
+### The on-goto-statement
 
     ON expression GO TO line-number, ..., line-number
 
 allows control to be transferred to a selected line.
 
-The stop-statement
+### The stop-statement
 
     STOP
 
