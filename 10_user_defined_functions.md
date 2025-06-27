@@ -19,11 +19,13 @@ where x is a single letter and a parameter is a simple numeric-variable.
 
 ## Examples 
 
+```BASIC
     DEF FNF(X) = X^4 - 1        DEF FNP = 3.14159  
     DEF FNA(X) = A*X + B
- 
+```
 
-## Semantics 
+## Semantics
+
 A function definition specifies the means of evaluating the function in terms of the value of an expression involving the parameter appearing in the parameter-list and possibly other variables or constants. When the function is referenced, i.e. when an expression involving the function is evaluated, then the expression in the argument list for the function reference, if any, is evaluated and its value is assigned to the parameter in the parameter-list for the function definition (the number of arguments shall correspond exactly to the number of parameters). The expression in the function definition is then evaluated, and this value is assigned as the value of the function. 
 
 The parameter appearing in the parameter-list of a function definition is local to that definition, i.e. it is distinct from any variable with the same name outside of the function definition. Variables which do not appear in the parameter-list are the variables of the same name outside the function definition. 
