@@ -53,3 +53,5 @@ A subscript is not in the range of the explicit or implicit dimensioning bounds 
 Since initialization of variables is not specified, and hence may vary from implementation to implementation, programs that are intended to be transportable should explicitly assign a value to each variable before any expression involving that variable is evaluated. 
 
 There are many commonly used alternatives for associating implementation-defined initial values with variables; it is recommended that all variables are recognizably undefined in the sense that an exception will result from any attempt to access the value of any variable before that variable is explicitly assigned a value.
+
+[Back](./)
