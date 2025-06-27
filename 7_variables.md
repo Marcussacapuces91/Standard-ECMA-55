@@ -23,8 +23,10 @@ Explicit declarations of variable types are not required; a dollar-sign serves t
 
 ## Examples
 
+```BASIC
     X      A5    V(3)    W(X,X+Y/2)
-    S$     C$ 
+    S$     C$
+```
 
 ## Semantics
 
@@ -34,7 +36,7 @@ The length of the character string associated with a string-variable can vary du
 
 Simple-numeric-variables and string-variables are declared implicitly through their appearance in a program. 
 
-A subscripted variable refers to the element in the one or two dimensional array selected by the value(s) of the subscript(s). The value of each subscript is rounded to the nearest integer. Unless explicitly declared in a dimension statement, subscripted variables are implicitly declared by their first appearance in a program. In this case the range of each subscript is from zero to ten inclusive, unless the presence of an option-statement indicates that the range is from one to ten inclusive. Subscript expressions shall have values within the appropriate range (see 18).
+A subscripted variable refers to the element in the one or two dimensional array selected by the value(s) of the subscript(s). The value of each subscript is rounded to the nearest integer. Unless explicitly declared in a dimension statement, subscripted variables are implicitly declared by their first appearance in a program. In this case the range of each subscript is from zero to ten inclusive, unless the presence of an option-statement indicates that the range is from one to ten inclusive. Subscript expressions shall have values within the appropriate range (see [18](18_array_declarations.md)).
 
 The same letter shall not be the name of both a simple variable and an array, nor the name of both a one-dimensional and a two-dimensional array. 
 
