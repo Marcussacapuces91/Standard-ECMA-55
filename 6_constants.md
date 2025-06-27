@@ -54,3 +54,5 @@ The evaluation of a numeric constant causes an overflow (non-fatal, the recommen
 Since this Standard does not require that strings with more than 18 characters be assignable to string variables (see [7](7_variables.md)), conforming programs can use string constants with more than 18 characters only as elements in a print-list.
 
 It is recommended that implementations report constants whose magnitudes are less than machine infinitesimal as underflows and continue.
+
+[Back](./)
