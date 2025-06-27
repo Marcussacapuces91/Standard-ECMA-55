@@ -40,3 +40,5 @@ The values of the implementation-supplied functions, as well as the number of ar
 The RND function in the absence of a randomize-statement (see [20](20_randomize_statement.md)) will generate the same sequence of pseudo-random numbers each time a program is run. This convention is chosen so that programs employing pseudo-random numbers can be executed several times with the same result. 
 
 It is recommended that, if the value of the exponential function is less than machine infinitesimal, implementations report this as an underflow and continue.
+
+[Back](./)
