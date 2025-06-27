@@ -11,7 +11,8 @@ This Standard establishes:
 - the syntax of a program written in Minimal BASIC.
 - The formats of data and the precision and range of numeric representations which are acceptable as input to an automatic data processing system being controlled by a program written in Minimal BASIC.
 - The formats of data and the precision and range of numeric representations which can be generated as output by an automatic data processing system being controlled by a program written in Minimal BASIC.
-- The semantic rules for interpreting the meaning of a program written in Minimal BASIC. - The errors and exceptional circumstances which shall be detected and also the manner in which such errors and exceptional circumstances shall be handled. 
+- The semantic rules for interpreting the meaning of a program written in Minimal BASIC.
+- The errors and exceptional circumstances which shall be detected and also the manner in which such errors and exceptional circumstances shall be handled.
 
 Although the BASIC language was originally designed primarily for interactive use, this Standard describes a language that is not so restricted.
 
