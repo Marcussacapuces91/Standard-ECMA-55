@@ -23,7 +23,7 @@ The values of the implementation-supplied functions, as well as the number of ar
 | `EXP(X)`                 | The exponential of X, i.e. the value of the base of natural logarithms (e = 2,71828...) raised to the power X; if EXP(X) is less than machine infinitesimal, then its value shall be replaced by zero.     |
 | `INT(X)`                 | The largest integer not greater than X; e.g.<br>`INT(1.3) = 1` and `INT(-1.3) = -2`                                                                                                                        |
 | `LOG(X)`                 | The natural logarithm of X; X must be greater than zero.                                                                                                                                                   |
-| `RND`                    | The next pseudo-random number in an implementation-supplied sequence of pseudo-random numbers uniformly distributed in the range 0 <= RND < 1 (see also 20).                                               |
+| `RND`                    | The next pseudo-random number in an implementation-supplied sequence of pseudo-random numbers uniformly distributed in the range 0 <= RND < 1 (see also [20](20_randomize_statement.md)).                  |
 | `SGN(X)`                 | The sign of X: -1 if X < 0, 0 if X = 0 and +1 if X > 0.                                                                                                                                                    |
 | `SIN(X)`                 | The sine of X, where X is in radians.                                                                                                                                                                      |
 | `SQR(X)`                 | The nonnegative square root of X; X must be nonnegative.                                                                                                                                                   |
@@ -37,6 +37,6 @@ The values of the implementation-supplied functions, as well as the number of ar
 
 ## Remarks 
 
-The RND function in the absence of a randomize-statement (see 20) will generate the same sequence of pseudo-random numbers each time a program is run. This convention is chosen so that programs employing pseudo-random numbers can be executed several times with the same result. 
+The RND function in the absence of a randomize-statement (see [20](20_randomize_statement.md)) will generate the same sequence of pseudo-random numbers each time a program is run. This convention is chosen so that programs employing pseudo-random numbers can be executed several times with the same result. 
 
 It is recommended that, if the value of the exponential function is less than machine infinitesimal, implementations report this as an underflow and continue.
