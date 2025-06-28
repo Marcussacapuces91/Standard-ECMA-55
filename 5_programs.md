@@ -1,3 +1,8 @@
+---
+prev: 4_characters_and_strings.html
+next: 6_constants.html
+---
+
 # Programs
 
 ## General Description 
@@ -67,5 +72,3 @@ Local editing facilities may allow for the entry of statement lines in any order
 line-numbers and lines containing only a line-number. Such editing facilities usually sort the program into the proper
 order and in the case of duplicate line-numbers, the last line entered with that line-number is retained. In many
 implementations, a line containing only a line-number (without trailing spaces) is usually deleted from the program.
-
-[back](./)

@@ -1,4 +1,10 @@
+---
+prev: 3_definitions.html
+next: 5_programs.html
+---
+
 # Characters and strings
+
 ## General Description 
 
 The character set for BASIC is contained in the ECMA 7-bit coded character set. Strings are sequences of characters and
@@ -58,5 +64,3 @@ program. Remark-strings may be used in remark-statements (see [19](19_remark_sta
 as string-constants (see [6](6_constants.md)). Unquoted-strings may be used in addition to quoted-strings as data
 elements (see [17](17_data_statement.md)) without being enclosed in quotation marks; unquoted-strings cannot contain
 leading or trailing spaces.
-
-[back](./)

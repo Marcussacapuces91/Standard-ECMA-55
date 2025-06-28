@@ -1,3 +1,8 @@
+---
+prev: brief_history.html
+next: 2_references.html
+---
+
 # Scope
 
 This Standard ECMA-55 is designed to promote the interchangeability of BASIC programs among a variety of automatic data
@@ -21,5 +26,3 @@ that is not so restricted.
 
 The organization of the Standard is outlined in [Appendix 1](A1_organisation_of_the_standard.md). The method of syntax
 specification used is explained in [Appendix 2](A2_method_of_syntax_specification.md).
-
-[back](./)

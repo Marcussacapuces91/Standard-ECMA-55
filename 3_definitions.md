@@ -1,7 +1,8 @@
 ---
-prev: \{% link "2_references.md" %}
+prev: 2_references.html
 next: 4_characters_and_strings.html
 ---
+
 # Definitions
 
 <dl>
@@ -94,5 +95,3 @@ precision by merely deleting the unwanted low order digits of the original repre
 </dd>
 
 </dl>
-
-[Back](./)

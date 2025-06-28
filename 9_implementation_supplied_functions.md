@@ -1,11 +1,17 @@
+---
+prev: 8_expressions.html
+next: 10_user_defined_functions.html
+---
+
 # Implementation supplied functions
+
 ## General Description
 
 Predefined algorithms are supplied by the implementation for the evaluation of commonly used numeric functions. 
 
 ## Syntax
 
-1. numeric-supplied-function = ABS / ATN / COS / EXP / INT / LOG / RND / SGN / SIN / SQR / TAN 
+1. numeric-supplied-function = `ABS` / `ATN` / `COS` / `EXP` / `INT` / `LOG` / `RND` / `SGN` / `SIN` / `SQR` / `TAN` 
 
 ## Examples 
 
@@ -33,12 +39,14 @@ The values of the implementation-supplied functions, as well as the number of ar
 
 - The value of the argument of the LOG function is zero or negative (fatal).
 - The value of the argument of the SQR function is negative (fatal).
-- The magnitude of the value of the exponential or tangent function is larger than machine infinity (nonfatal, the recommended recovery procedure is to supply machine infinity with the appropriate sign and continue).
+- The magnitude of the value of the exponential or tangent function is larger than machine infinity (nonfatal, the 
+  recommended recovery procedure is to supply machine infinity with the appropriate sign and continue).
 
 ## Remarks 
 
-The RND function in the absence of a randomize-statement (see [20](20_randomize_statement.md)) will generate the same sequence of pseudo-random numbers each time a program is run. This convention is chosen so that programs employing pseudo-random numbers can be executed several times with the same result. 
+The RND function in the absence of a randomize-statement (see [20](20_randomize_statement.md)) will generate the same 
+sequence of pseudo-random numbers each time a program is run. This convention is chosen so that programs employing 
+pseudo-random numbers can be executed several times with the same result. 
 
-It is recommended that, if the value of the exponential function is less than machine infinitesimal, implementations report this as an underflow and continue.
-
-[Back](./)
+It is recommended that, if the value of the exponential function is less than machine infinitesimal, implementations
+report this as an underflow and continue.

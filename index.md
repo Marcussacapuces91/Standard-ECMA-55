@@ -6,7 +6,7 @@ January 1978
 
 [Brief History](brief_history.md)
 
-[Table of Contents](index.md)
+<!-- [Table of Contents](index.md) -->
 
   1. [Scope](1_scope.md)
   2. [References](2_references.md)
