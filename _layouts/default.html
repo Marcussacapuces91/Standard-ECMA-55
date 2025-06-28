@@ -43,12 +43,12 @@
           </div>
           <div style="flex: 1; padding: 20px; text-align: center;">
           {% if page.prev %}
-            <a href="{% link {{ page.prev }} %}">&larr; Prev.</a>
+            <a href="{{ page.prev }}">&larr; Prev.</a>
           {% endif %}
           </div>
           <div style="flex: 1; padding: 20px; text-align: center;">
           {% if page.next %}
-            <a href="{% link {{ page.next }} %}">&rarr; Next</a>
+            <a href="{{ page.next }}">&rarr; Next</a>
           {% endif %}
           </div>
       </div>
