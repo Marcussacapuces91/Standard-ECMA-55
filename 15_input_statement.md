@@ -25,8 +25,10 @@ separated by commas. The general syntactic form of the input-statement is
 
 ## Examples
 
+```BASIC
     INPUT X       INPUT X, A$, Y(2)      INPUT A, B, C
     3.14159       2,SMITH,-3             25,0 ,-15
+```
 
 ## Semantics
 
