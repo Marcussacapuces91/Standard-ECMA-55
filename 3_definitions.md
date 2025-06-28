@@ -76,7 +76,7 @@ precision taking into account the value of that portion of the original number w
 The contiguous sequence of digits between the high-order nonzero digit and the low-order non-zero digit, without regard 
 for the location of the radix point. Commonly, in a normalized floating point internal representation, only the
 significant digits of a representation are maintained in the significance.
-<div class="note, information">
+<div class="note information">
 <h4>NOTE:</h4>
 <p>The Standard requires that the ability of a conforming implementation to accept numeric representations be measured 
 in terms of significant digits rather than the actual number of digits (that is including leading or trailing zeroes) in
@@ -91,7 +91,9 @@ precision by merely deleting the unwanted low order digits of the original repre
 
 </dl>
 
-[^ Back](./)    [<- Prev.](2_references.md)     [-> Next](4_characters_and_strings.md)
+[^ Back](./)
+[<- Prev.](2_references.md)
+[-> Next](4_characters_and_strings.md)
 
 <div style="display: flex; justify-content: space-between; ">
     <div style="flex: 1; padding: 20px; text-align: center;" markdown="1">[^ Back](./)</div>
