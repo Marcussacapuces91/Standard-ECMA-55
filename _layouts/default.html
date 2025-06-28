@@ -33,16 +33,20 @@
     <div class="container">
       <section id="main_content">
         {{ content }}
-        
-        <!-- <p><a href="./">Back</a> {{ page.next }} </p> -->
       </section>
     </div>
 
     <footer>
-      <div style="display: flex; justify-content: space-between; ">
-          <div style="flex: 1; padding: 20px; text-align: center;"><a href="{{ '/' | page.back }}">^ Back</a></div>
-          <div style="flex: 1; padding: 20px; text-align: center;"><a href="{{ page.prev_url }}"><- Prev.</a></div>
-          <div style="flex: 1; padding: 20px; text-align: center;"><a href="{{ page.next_url }}">-> Next</a></div>
+      <div style="display: flex; justify-content: space-between; padding: 10px">
+          <div style="flex: 1; padding: 20px; text-align: center;">
+            <a href="{{ page.back | default: '/' }}">^ Back</a>
+          </div>
+          <div style="flex: 1; padding: 20px; text-align: center;">
+            <a href="{% link {{ page.prev }} %}"><- Prev.</a>
+          </div>
+          <div style="flex: 1; padding: 20px; text-align: center;">
+            <a href="{% link {{ page.next }} %}">-> Next</a>
+          </div>
       </div>
     </footer>
 
