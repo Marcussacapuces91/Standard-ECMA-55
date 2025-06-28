@@ -15,7 +15,8 @@ not included in the syntax. All terminal metanames occur for the first time and 
 [Section 4](4_characters_and_strings.md). It should be noted in particular that all upper-case letters are terminal 
 metanames which denote themselves. 
 
-We illustrate further details of the syntax by considering some examples. In Section 12 we find the production 
+We illustrate further details of the syntax by considering some examples. In [Section 12](12_control_statement.md) we
+find the production 
 
     gosub-statement = GO space* SUB line-number
 
@@ -36,7 +37,8 @@ What is a "digit"? [Section 4](4_characters_and_strings.md), the production
 indicates that a "digit" is either a "0", a "1", ... or a "9" (the solidus is a syntactic operator meaning "or" and is
 used to indicate that a metaname can be rewritten in one of several ways). Since the digits are terminal metanames (i.e.
 they do not occur on the left-hand side of any production), our decipherment of the syntax for the "gosub-statement"
-comes to an end. The semantics in Section 4 identify the digits in terms of the characters they represent.
+comes to an end. The semantics in [Section 4](4_characters_and_strings.md) identify the digits in terms of the 
+characters they represent.
 
 An asterisk is a syntactic operator like the question-mark, and it indicates that the object it follows may occur any
 number of times, including zero times, in the production. 
