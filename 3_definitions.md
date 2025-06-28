@@ -85,9 +85,16 @@ the representation.</p>
 </dd>
 <dt>Truncation</dt>
 <dd markdown="1">
-The process by which the representation of a value with lower precision is generated from a representation of higher precision by merely deleting the unwanted low order digits of the original representation.
+The process by which the representation of a value with lower precision is generated from a representation of higher 
+precision by merely deleting the unwanted low order digits of the original representation.
 </dd>
 
 </dl>
 
-[back](./)
+[^ Back](./)    [<- Prev.](2_references.md)     [-> Next](4_characters_and_strings.md)
+
+<div style="display: flex; justify-content: space-between; ">
+    <div style="flex: 1; padding: 20px; text-align: center;" markdown="1">[^ Back](./)</div>
+    <div style="flex: 1; padding: 20px; text-align: center;" markdown="1">[<- Prev.](2_references.md)Column 2</div>
+    <div style="flex: 1; padding: 20px; text-align: center;" markdown="1">[-> Next](4_characters_and_strings.md)</div>
+</div>
