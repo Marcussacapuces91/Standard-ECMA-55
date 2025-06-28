@@ -77,7 +77,7 @@ The contiguous sequence of digits between the high-order nonzero digit and the l
 for the location of the radix point. Commonly, in a normalized floating point internal representation, only the
 significant digits of a representation are maintained in the significance.
 <div class="note, information">
-<h5>NOTE:</h5>
+<h4>NOTE:</h4>
 <p>The Standard requires that the ability of a conforming implementation to accept numeric representations be measured 
 in terms of significant digits rather than the actual number of digits (that is including leading or trailing zeroes) in
 the representation.</p>
