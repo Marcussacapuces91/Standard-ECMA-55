@@ -1,6 +1,6 @@
 ---
-prev: "2_references.html"
-next: "4_characters_and_strings.html"
+prev: 2_references.html
+next: 4_characters_and_strings.html
 ---
 # Definitions
 
