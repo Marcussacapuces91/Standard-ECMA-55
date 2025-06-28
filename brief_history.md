@@ -1,3 +1,7 @@
+---
+next: 1_scope.html
+---
+
 # Brief History
 
 The first version of the language BASIC, acronym for Beginner's All-purpose Symbolic Instruction Code, was produced in 
@@ -13,5 +17,3 @@ The ANSI one was distributed for public comments in January 1976 , and a number 
 
 A final version of the ECMA Standard was prepared at the meeting of June 1977 and adopted by the General Assembly of
 ECMA on Dec. 14, 1977 as Standard ECMA-55.
-
-[Back](./)
