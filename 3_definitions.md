@@ -1,6 +1,6 @@
 ---
-prev: 2_references.md
-next: 4_characters_and_strings.md
+prev: {% link '2_references.md' %}
+next: {% link '4_characters_and_strings.md' %}
 ---
 # Definitions
 
