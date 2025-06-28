@@ -42,10 +42,14 @@
             <a href="{{ page.back | default: '/' }}">^ Back</a>
           </div>
           <div style="flex: 1; padding: 20px; text-align: center;">
-            <a href="{% link {{ page.prev }} %}"><- Prev.</a>
+          {% if page.prev %}
+            <a href="{% link {{ page.prev }} %}">&larr; Prev.</a>
+          {% endif %}
           </div>
           <div style="flex: 1; padding: 20px; text-align: center;">
-            <a href="{% link {{ page.next }} %}">-> Next</a>
+          {% if page.next %}
+            <a href="{% link {{ page.next }} %}">&rarr; Next</a>
+          {% endif %}
           </div>
       </div>
     </footer>
