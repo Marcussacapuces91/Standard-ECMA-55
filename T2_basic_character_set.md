@@ -1,3 +1,9 @@
+---
+prev: T1_basic_code.html
+next: A1_organisation_of_the_standard.html
+---
+
+# Table 2
 
 <table>
 <tr><td colspan="5"></td><td>b<sub>7</sub></td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
@@ -32,5 +38,3 @@ International Reference Version).</p>
 <p>The same applies to pos. 2/3 for the characters £ and #, the latter being the character of the International
 Reference Version.</p>
 </div>
-
-[Back](./)

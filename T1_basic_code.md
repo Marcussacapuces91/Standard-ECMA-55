@@ -1,4 +1,9 @@
+---
+prev: 20_randomize_statement.html
+next: T2_basic_character_set.html
+---
 
+# Table 1
 
 | Name               | Graphic           |
 |--------------------|:-----------------:|
@@ -28,5 +33,3 @@
 | Letters            | `A` - `Z`         |
 | Circumflex-accent  | `^`               |
 | Underline          | `_`               |
-
-[Back](./)

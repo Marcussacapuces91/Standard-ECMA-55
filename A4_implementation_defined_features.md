@@ -1,7 +1,12 @@
-# Appendix 4
-# Implementation-defined Features
+---
+prev: A3_conformance.html
+---
 
-A number of the features defined in this Standard have been left for definition by the implementor. However, this will not affect portability, provided that the limits recommended in the various sections are respected. The way these features are implemented shall be defined in the user- or system-manual of the specific implementation. 
+# Appendix 4<br>Implementation-defined Features
+
+A number of the features defined in this Standard have been left for definition by the implementor. However, this will
+not affect portability, provided that the limits recommended in the various sections are respected. The way these
+features are implemented shall be defined in the user- or system-manual of the specific implementation.
 
 The following is a list of implementation-defined features: 
 
@@ -19,5 +24,3 @@ The following is a list of implementation-defined features:
 - pseudo-random number sequence (see [9](9_implementation_supplied_functions.md) and [20](20_randomize_statement.md))
 - significance width for printing numeric representations (see [15](15_input_statement.md))
 - means of requesting the input-reply in batch mode (see [15](15_input_statement.md))
-
-[Back](./)
