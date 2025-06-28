@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
-
+{% include head-custom.html %}
 {% seo %}
   </head>
 
   <body>
-
     <header>
       <div class="container">
         <a id="a-title" href="{{ '/' | relative_url }}">
@@ -42,17 +40,17 @@
             <a href="{{ page.back | default: '/' }}">&uarr; Back</a>
           </div>
           <div style="flex: 1; padding: 20px; text-align: center;">
-          {% if page.prev %}
+          {%- if page.prev %}
             <a href="{{ page.prev }}">&larr; Prev.</a>
-          {% endif %}
+          {%- endif %}
           </div>
           <div style="flex: 1; padding: 20px; text-align: center;">
-          {% if page.next %}
+          {%- if page.next %}
             <a href="{{ page.next }}">&rarr; Next</a>
-          {% endif %}
+          {%- endif %}
           </div>
       </div>
+      <div style="text-align: center">Web site by <a href="https://github.com/Marcussacapuces91">Marcussacapuces91</a> - <a href="https://github.com/pages-themes/hacker">The Hacker theme</a> for Jekyll - See also <a href="https://lab-allen.fr">Lab'Allen</a> </div>
     </footer>
-
   </body>
 </html>
