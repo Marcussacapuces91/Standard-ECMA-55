@@ -1,5 +1,5 @@
 ---
-prev: 2_references.html
+prev: \{% link "2_references.md" %}
 next: 4_characters_and_strings.html
 ---
 # Definitions
