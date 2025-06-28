@@ -17,19 +17,19 @@ where each item is an expression, a tab-call, or null, and each punctuation mark
 
 ## Syntax
 
-1. print-statement      = PRINT print-list?
+1. print-statement      = `PRINT` print-list?
 2. print-list           = (print-item? print-separator)* print-item?
 3. print-item           = expression / tab-call
-4. tab-call             = TAB left-parenthesis numeric-expression right-parenthesis
+4. tab-call             = `TAB` left-parenthesis numeric-expression right-parenthesis
 5. print-separator      = comma / semicolon
 
-14.3 Examples
+## Examples
 
 ```BASIC
-PRINT X                         PRINT "X EQUALS", 10
-PRINT X; (Y+Z)/2                PRINT X, Y
-PRINT                           PRINT ,,,X
-PRINT TAB(10); A$; "IS DONE."
+    PRINT X                         PRINT "X EQUALS", 10
+    PRINT X; (Y+Z)/2                PRINT X, Y
+    PRINT                           PRINT ,,,X
+    PRINT TAB(10); A$; "IS DONE."
 ```
 
 ## Semantics
