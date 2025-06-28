@@ -1,3 +1,8 @@
+---
+prev: 17_data_statement.html
+next: 19_remark_statement.html
+---
+
 # Array declarations
 
 ## General Description
@@ -61,5 +66,3 @@ An array can be explicitly dimensioned only once.
 ## Exceptions 
 
 None.
-
-[Back](./)

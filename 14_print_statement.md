@@ -1,3 +1,8 @@
+---
+prev: 13_for_and_next_statements.html
+next: 15_input_statement.html
+---
+
 # Print Statement
 
 ## General Description
@@ -21,31 +26,47 @@ where each item is an expression, a tab-call, or null, and each punctuation mark
 14.3 Examples
 
 ```BASIC
-  PRINT X                        PRINT "X EQUALS", 10
-  PRINT X; (Y+Z)/2               PRINT X, Y
-  PRINT                          PRINT ,,,X
-  PRINT TAB(10); A$; "IS DONE."
+PRINT X                         PRINT "X EQUALS", 10
+PRINT X; (Y+Z)/2                PRINT X, Y
+PRINT                           PRINT ,,,X
+PRINT TAB(10); A$; "IS DONE."
 ```
 
 ## Semantics
 
-The execution of a print-statement generates a string of characters for transmission to an external device. This string of characters is determined by the successive evaluation of each print-item and print-separator in the print-list.
+The execution of a print-statement generates a string of characters for transmission to an external device. This string 
+of characters is determined by the successive evaluation of each print-item and print-separator in the print-list.
 
-Numeric-expressions shall be evaluated to produce a string of characters consisting of a leading space if the number is positive or a leading minus-sign if the number is negative followed by the decimal representation of the absolute value of the number and a trailing space. The possible formats for the decimal representation of a number are the same as those described for numeric-constants in [6](6_constants.md) and are used as follows.
+Numeric-expressions shall be evaluated to produce a string of characters consisting of a leading space if the number is
+positive or a leading minus-sign if the number is negative followed by the decimal representation of the absolute value
+of the number and a trailing space. The possible formats for the decimal representation of a number are the same as 
+those described for numeric-constants in [6](6_constants.md) and are used as follows.
 
-Each implementation shall define two quantities, a significance-width d to control the number of significant decimal digits printed in numeric representations, and an exrad-width e to control the number of digits printed in the exrad component of a numeric representation. The value of d shall be at least six and the value of e shall be at least two.
+Each implementation shall define two quantities, a significance-width d to control the number of significant decimal 
+digits printed in numeric representations, and an exrad-width e to control the number of digits printed in the exrad
+component of a numeric representation. The value of d shall be at least six and the value of e shall be at least two.
 
-Each number that can be represented exactly as an integer with d or fewer decimal digits is output using the implicit point unsealed representation.
+Each number that can be represented exactly as an integer with d or fewer decimal digits is output using the implicit 
+point unsealed representation.
 
-All other numbers shall be output using either explicit point unsealed notation or explicit point scaled notation. Numbers which can be represented with d or fewer digits in the unsealed format no less accurately than they can be represented in the scaled format shall be output using the unsealed format. For example, if d = 6, then 10^(-6) is output as .000001 and 10^(-7) is output as l.E-7.
+All other numbers shall be output using either explicit point unsealed notation or explicit point scaled notation.
+Numbers which can be represented with d or fewer digits in the unsealed format no less accurately than they can be
+represented in the scaled format shall be output using the unsealed format. For example, if d = 6, then 10<sup>-6</sup>
+is output as .000001 and 10<sup>-7</sup> is output as l.E-7.
 
-Numbers represented in the explicit point unsealed notation shall be output with up to d significant decimal digits and a full- stop; trailing zeroes in the fractional part may be omitted. A number with magnitude less than 1 shall be represented with no digits to the left of the full-stop. This form requires up to d+3 characters counting the sign, the full-stop and the trailing space.
+Numbers represented in the explicit point unsealed notation shall be output with up to d significant decimal digits and
+a full-stop; trailing zeroes in the fractional part may be omitted. A number with magnitude less than 1 shall be
+represented with no digits to the left of the full-stop. This form requires up to d+3 characters counting the sign, the 
+full-stop and the trailing space.
 
 Numbers represented in the explicit point scaled notation shall be output in the format
 
     significand E sign integer
 
-where the value x of the significand is in the range 1 <= x < 10 and is to be represented with exactly d digits of precision, and where the exrad component has one to e digits. Trailing zeroes may be omitted in the fractional part of the significand and leading zeroes may be omitted from the exrad. This form requires up to d+e+5 characters counting the two signs, the full-stop, the "E" and a trailing space.
+where the value x of the significand is in the range 1 <= x < 10 and is to be represented with exactly d digits of
+precision, and where the exrad component has one to e digits. Trailing zeroes may be omitted in the fractional part of
+the significand and leading zeroes may be omitted from the exrad. This form requires up to d+e+5 characters counting the
+two signs, the full-stop, the "E" and a trailing space.
 
 String-expressions shall be evaluated to generate a string of characters.
 
@@ -59,24 +80,32 @@ The purpose of the tab-call is to set the columnar position of the current line 
 
     n - m * INT ((n-l)/m).
   
-If the columnar position of the current line is less than or equal to n, then spaces are generated, if necessary, to set the columnar position to n; if the columnar position of the current line is greater than n, then an end-of-line is generated followed by enough spaces to set the columnar position of the new cur¬ rent line to n.
+If the columnar position of the current line is less than or equal to n, then spaces are generated, if necessary, to set
+the columnar position to n; if the columnar position of the current line is greater than n, then an end-of-line is
+generated followed by enough spaces to set the columnar position of the new current line to n.
 
-The evaluation of the comma-separator generates one or more spaces to set the columnar position to the beginning of the next print zone, unless the current print zone is the last on the line, in which case an end-of-line is generated.
+The evaluation of the comma-separator generates one or more spaces to set the columnar position to the beginning of the
+next print zone, unless the current print zone is the last on the line, in which case an end-of-line is generated.
 
-If the print list does not end in a print-separator, then an end-of-line is generated and added to the characters generated by the evaluation of the print-list.
+If the print list does not end in a print-separator, then an end-of-line is generated and added to the characters 
+generated by the evaluation of the print-list.
 
-If the evaluation of any print-item in a print-list would cause the length of a nonempty line to exceed the margin, then an end-of-line is generated prior to the characters generated by that print-item. Subsequently, if the evaluation of a print-item generates a string whose length is greater than the margin, then end-of-lines are inserted after every m characters in the string, where m is the margin value.
+If the evaluation of any print-item in a print-list would cause the length of a nonempty line to exceed the margin, then
+an end-of-line is generated prior to the characters generated by that print-item. Subsequently, if the evaluation of a
+print-item generates a string whose length is greater than the margin, then end-of-lines are inserted after every m
+characters in the string, where m is the margin value.
 
 ## Exceptions
 
-The evaluation of a tab-call argument generates a value less than one (nonfatal: the recommended recovery procedure is to supply one and continue).
+The evaluation of a tab-call argument generates a value less than one (nonfatal: the recommended recovery procedure is
+to supply one and continue).
 
 ## Remarks
 
-The comma-separator allows the programmer to tabulate the printing mechanism to fixed tab settings at the end of each print zone.
+The comma-separator allows the programmer to tabulate the printing mechanism to fixed tab settings at the end of each
+print zone.
 
-A completely empty print-list will generate an end-of-line, thereby completing the current line of output. If this line contained no characters, then a blank line results.
+A completely empty print-list will generate an end-of-line, thereby completing the current line of output. If this line 
+contained no characters, then a blank line results.
 
 A print line on a typical terminal might be divided into five print zones of fifteen print positions each.
-
-[Back](./)

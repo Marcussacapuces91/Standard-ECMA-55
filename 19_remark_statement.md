@@ -1,3 +1,8 @@
+---
+prev: 18_array_declarations.html
+next: 20_randomize_statement.html
+---
+
 # Remark Statement
 
 ## General Description
@@ -21,6 +26,4 @@ no other effect.
 
 ## Exceptions
 
-None. 
-
-[Back](./)
+None.

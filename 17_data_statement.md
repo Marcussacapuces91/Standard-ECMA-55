@@ -1,3 +1,8 @@
+---
+prev: 16_read_and_restore_statements.html
+next: 18_array_declarations.html
+---
+
 # Data Statement 
 
 ## General Description 
@@ -30,6 +35,4 @@ other effect.
 
 ## Exceptions
 
-None .
-
-[Back](./)
+None.

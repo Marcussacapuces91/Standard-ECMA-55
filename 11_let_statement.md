@@ -1,16 +1,22 @@
+---
+prev: 10_user_defined_functions.html
+next: 12_control_statement.html
+---
+
 # LET statement
 
 ## General Description 
 
-A let-statement provides for the assignment of the value of an expression to a variable. The general syntactic form of the let-statement shall be
+A let-statement provides for the assignment of the value of an expression to a variable. The general syntactic form of 
+the let-statement shall be
 
     LET variable = expression
 
 ## Syntax
 
 1. let-statement = numeric-let-statement / string-let-statement
-2. numeric-let-statement = LET numeric-variable equals-sign numeric-expression 
-3. string-let-statement = LET string-variable equals-sign string-expression 
+2. numeric-let-statement = `LET` numeric-variable equals-sign numeric-expression 
+3. string-let-statement = `LET` string-variable equals-sign string-expression 
 
 ## Examples
 
@@ -28,5 +34,3 @@ The expression is evaluated (see 8) and its value is assigned to the variable to
 ## Exceptions
 
 A string datum contains too many characters (fatal).
-
-[Back](./)

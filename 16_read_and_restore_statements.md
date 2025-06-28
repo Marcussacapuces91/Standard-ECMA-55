@@ -1,4 +1,9 @@
-# Read and Restore Statements
+---
+prev: 15_input_statement.html
+next: 17_data_statement.html
+---
+
+# READ and RESTORE Statements
 
 ## General Description
 
@@ -53,5 +58,3 @@ Subscript expressions in the variable-list are evaluated after values have been 
 ## Remarks
 
 It is recommended that implementations report an underflow as exception and continue.
-
-[Back](./)
