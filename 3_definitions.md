@@ -91,7 +91,4 @@ precision by merely deleting the unwanted low order digits of the original repre
 
 </dl>
 
-[\^ Back](./)
-[<- Prev.](2_references.md)
-[-> Next](4_characters_and_strings.md)
-
+[Back](./)
