@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,5 +37,14 @@
         <!-- <p><a href="./">Back</a> {{ page.next }} </p> -->
       </section>
     </div>
+
+    <footer>
+      <div style="display: flex; justify-content: space-between; ">
+          <div style="flex: 1; padding: 20px; text-align: center;"><a href="{{ '/' | page.back }}">^ Back</a></div>
+          <div style="flex: 1; padding: 20px; text-align: center;"><a href="{{ page.prev_url }}"><- Prev.</a></div>
+          <div style="flex: 1; padding: 20px; text-align: center;"><a href="{{ page.next_url }}">-> Next</a></div>
+      </div>
+    </footer>
+
   </body>
 </html>
